@@ -1,0 +1,29 @@
+{
+  "name": "vinyl-tf-babel",
+  "version": "0.1.0",
+  "description": "A Vinyl Transformer for Babel",
+  "keywords": [
+    "vinyl",
+    "transformer",
+    "babel"
+  ],
+  "author": "Stefan Rumzucker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanr/node-vinyl-tf-babel.git"
+  },
+  "scripts": {
+    "build": "npm --prefix build run build",
+    "build-install": "npm --prefix build install --production",
+    "test": "npm --prefix test test",
+    "test-install": "npm --prefix test install --production"
+  },
+  "dependencies": {
+    "vinyl-sourcemaps-apply": "^0.1.0",
+    "vinyl-transformer": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.0"
+  },
+  "license": "MIT"
+}
